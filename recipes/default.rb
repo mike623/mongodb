@@ -20,6 +20,7 @@
 #
 
 include_recipe 'sc-mongodb::install'
+include_recipe 'apt::default'
 
 # allow mongodb_instance to run if recipe isn't included
 allow_mongodb_instance_run = true
